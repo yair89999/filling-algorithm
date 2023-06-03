@@ -8,11 +8,6 @@
 
 using namespace std;
 
-
-/*
-
-*/
-
 vector<vector<int>> floodFill(vector<vector<int>> board, int pos[2], int replaceValue,SDL_Renderer* renderer,int x,int startX,int y,int startY,int rectSize) {
     x = startX;
     y = startY;
